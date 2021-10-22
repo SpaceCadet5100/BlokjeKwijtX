@@ -1,0 +1,15 @@
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\bin\Debug\net5.0\BlokjeKwijt.Domain.deps.json
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\bin\Debug\net5.0\BlokjeKwijt.Domain.runtimeconfig.json
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\bin\Debug\net5.0\BlokjeKwijt.Domain.runtimeconfig.dev.json
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\bin\Debug\net5.0\BlokjeKwijt.Domain.dll
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\bin\Debug\net5.0\ref\BlokjeKwijt.Domain.dll
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\bin\Debug\net5.0\BlokjeKwijt.Domain.pdb
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.csproj.AssemblyReference.cache
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.AssemblyInfoInputs.cache
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.AssemblyInfo.cs
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.csproj.CoreCompileInputs.cache
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.dll
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\ref\BlokjeKwijt.Domain.dll
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.pdb
+C:\Users\c\source\repos\BlokjeKwijt\BlokjeKwijt.Domain\obj\Debug\net5.0\BlokjeKwijt.Domain.genruntimeconfig.cache
