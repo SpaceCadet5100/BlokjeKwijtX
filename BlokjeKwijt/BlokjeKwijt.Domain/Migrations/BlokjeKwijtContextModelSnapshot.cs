@@ -64,8 +64,8 @@ namespace BlokjeKwijt.Domain.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("RgbValue")
-                        .HasColumnType("int");
+                    b.Property<string>("RgbValue")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 

@@ -1,0 +1,72 @@
+﻿@model BlokjeKwijt.Models.BlokjeViewModel
+@using BlokjeKwijt.Domain 
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Blokje</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Blokje.Lenght" class="control-label"></label>
+                <input asp-for="Blokje.Lenght" class="form-control" />
+                <span asp-validation-for="Blokje.Lenght" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Blokje.Width" class="control-label"></label>
+                <input asp-for="Blokje.Width" class="form-control" />
+                <span asp-validation-for="Blokje.Width" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ColorID" class="control-label"></label>
+                <select name="ColorID" id="ColorID">
+                    @if (ViewBag.ColorSelection != null)
+                    {
+                        @foreach (BlokjeColor color in ViewBag.ColorSelection)
+                        {
+                            <option value="@color.ID">@color.Name</option>
+                        }
+                    }
+                 </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Blokje.Height" class="control-label"></label>
+                <input asp-for="Blokje.Height" class="form-control" />
+                <span asp-validation-for="Blokje.Height" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Blokje.NumberOfNobs" class="control-label"></label>
+                <input asp-for="Blokje.NumberOfNobs" class="form-control" />
+                <span asp-validation-for="Blokje.NumberOfNobs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Blokje.BlockNumber" class="control-label"></label>
+                <input asp-for="Blokje.BlockNumber" class="form-control" />
+                <span asp-validation-for="Blokje.BlockNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Blokje.ImageLink" class="control-label"></label>
+                <input asp-for="Blokje.ImageLink" class="form-control" />
+                <span asp-validation-for="Blokje.ImageLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
