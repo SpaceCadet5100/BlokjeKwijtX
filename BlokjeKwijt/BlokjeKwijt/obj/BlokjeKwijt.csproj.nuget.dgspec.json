@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj": {}
+    "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj": {
+    "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj",
         "projectName": "BlokjeKwijt.Domain",
-        "projectPath": "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj",
-        "packagesPath": "C:\\Users\\c\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt.Domain\\obj\\",
+        "projectPath": "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj",
+        "packagesPath": "C:\\Users\\David Kamp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\David Kamp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -76,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj": {
+    "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj",
+        "projectUniqueName": "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj",
         "projectName": "BlokjeKwijt",
-        "projectPath": "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj",
-        "packagesPath": "C:\\Users\\c\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt\\obj\\",
+        "projectPath": "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt\\BlokjeKwijt.csproj",
+        "packagesPath": "C:\\Users\\David Kamp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\David Kamp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +108,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj": {
-                "projectPath": "C:\\Users\\c\\source\\repos\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj"
+              "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj": {
+                "projectPath": "C:\\Users\\David Kamp\\Documents\\GitHub\\BlokjeKwijtX\\BlokjeKwijt\\BlokjeKwijt.Domain\\BlokjeKwijt.Domain.csproj"
               }
             }
           }
@@ -120,6 +124,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -135,6 +143,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.Exchange.WebServices": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -155,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

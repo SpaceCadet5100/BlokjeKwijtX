@@ -1,0 +1,26 @@
+﻿@model dynamic
+@using BlokjeKwijt.Domain
+<html>
+<body>
+    <div>
+        @{ Html.BeginForm();}
+        <select>
+            @foreach (var over in Model.UserHasExtraBricks)
+            {
+                <option value=@over>@over.User.Name</option>
+            }
+        </select>
+        @{ Html.EndForm();}
+    </div>
+    <div>
+        @{ Html.BeginForm();}
+        <select>
+            @foreach (var kwijt in Model.UserHasMissingBricks)
+            {
+                <option value=@kwijt>@kwijt.User.Name</option>
+            }
+        </select>
+        @{ Html.EndForm();}
+    </div>
+</body>
+</html>
